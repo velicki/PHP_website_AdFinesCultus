@@ -1,0 +1,1082 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    //background-image: url(../Images/Pozadina.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: altera, lucida grande ,tahoma,verdana,arial,sans-serif, franklin gothic medium;
+    background-color: white;
+   
+}
+
+body p
+{
+    font-size: 0.8em;
+    line-height: 1.28;
+}
+
+
+
+#sajt
+{
+    //background-image: url(../Images/Pozadina2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    width: 1080px;
+    background-color: white;
+    
+    margin: 0 auto;
+    //padding: 5px;
+    border: 0px solid #e6e6e6;
+    //overflow: hidden;
+    //margin-top: 0px;
+    //text-shadow: 0.1em 0.1em #333;
+}
+
+#banner
+{
+    border: 0px solid #e6e6e6;    
+    height: 230px;
+    list-style: none;
+}
+
+
+
+
+#logo
+{
+    float: left;
+    height: 220px;
+    width: 220px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 0px;
+    border: 0px solid #e6e6e6;
+    
+}
+
+#sidebar
+{
+    float: right;
+    //height: 170px;
+    width: 755px;
+    margin-top: 147px;
+    margin-right: 15px;
+    padding: 0px;
+    border: 0px solid #e6e6e6;
+    text-align: center;
+    color: black;
+}
+
+#navigacionimeni
+{
+    list-style-type: none;
+    
+}
+
+#navigacionimeni li
+{
+    font: altera;
+    margin-right: 15px;
+    font-size: 14pt;
+    //width: 75px;
+    text-align: center;
+    position: relative;
+    float: left;
+    
+}
+
+#navigacionimeni a
+{
+    padding-left: 2px;
+    padding-right: 2px;
+    transition: 1s ease;
+}
+
+#navigacionimeni a:link, nav a:visited
+{
+    display: #7f8181;
+    color: #7f8181;
+    text-decoration: none;
+}
+
+#navigacionimeni a:visited
+{
+    color: #7f8181;
+    text-decoration: none;
+}
+
+#navigacionimeni a:active
+{
+    color: #7f8181; 
+    text-shadow: 2px 2px 8px #808080;
+}
+
+#navigacionimeni a:hover
+{
+    color: black;
+    text-shadow: 6px 6px 8px #808080;
+    border-radius: 7px 7px 0px 0px;
+}
+
+#navigacionimeni .dugme1 a:hover
+{
+    background-color: #00a9ec;
+}
+
+#navigacionimeni .dugme2 a:hover
+{
+    background-color: #ee9b01;
+}
+
+#navigacionimeni .dugme3 a:hover
+{
+    background-color: #67087c;
+}
+
+#navigacionimeni .dugme4 a:hover
+{
+    background-color: #7bc623;
+}
+
+#navigacionimeni .dugme5 a:hover
+{
+    background-color: #e31770;
+}
+
+#slajd
+{
+    float: left;
+    height: 567px;
+    width: 1080px;
+    border: 0px solid #e6e6e6;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+#novosti
+{
+    border-radius: 30px;
+    background-color: #cdd5f4;
+    float: left;
+    height: 350px;
+    width: 1080px;
+    border: 0px solid #e6e6e6;
+    position: relative;
+    overflow: hidden;
+}
+
+#onama
+{
+    border-radius: 30px;
+    background-color: #c7efa8;
+    float: left;
+    //height: 350px;
+    width: 1080px;
+    border: 0px solid #c7efa8;
+    position: relative;
+    overflow: hidden;
+}
+
+#kontakt
+{
+    border-radius: 30px;
+    background-color: #e7d7b4;
+    float: left;
+    //height: 350px;
+    width: 1080px;
+    border: 0px solid #e6e6e6;
+    position: relative;
+    overflow: hidden;
+}
+
+#svesti
+{
+    border-radius: 30px;
+    background-color: #cdd5f4;
+    float: left;
+    //height: 350px;
+    width: 1080px;
+    border: 0px solid #e6e6e6;
+    position: relative;
+    overflow: hidden;
+}
+
+#sblog
+{
+    border-radius: 30px;
+    background-color: #dbc9f1;
+    float: left;
+    //height: 350px;
+    width: 1080px;
+    border: 0px solid #e6e6e6;
+    position: relative;
+    overflow: hidden;
+}
+
+#sblogb
+{
+    border-radius: 30px;
+    background-color: #d7b9b7;
+    float: left;
+    //height: 350px;
+    width: 1080px;
+    border: 0px solid #ebcecb;
+    position: relative;
+    overflow: hidden;
+}
+
+.onama
+{
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+}
+
+#blog
+{
+    border-radius: 30px;
+    background-color: #dbc9f1;
+    float: left;
+    height: 350px;
+    width: 1080px;
+    border: 0px solid #e6e6e6;
+    position: relative;
+    //overflow: hidden;
+}
+
+
+
+#sivifuter
+{
+    float: left;
+    height: 235px;
+    width: 1080px;
+    text-align: center;
+    border: 0px solid #e6e6e6;
+    //background-color:#e6e7e7;
+    position: relative;
+    overflow: hidden;
+}
+
+footer
+{
+    clear: both;
+    width: auto;
+    height: 40px;
+    padding: 10px;
+    border-top: 2px solid #2e2521;
+    text-align: center;
+    color: black;
+    //text-shadow: 0.1em 0.1em #333;
+}
+
+.imgFooter
+{
+    float:left;
+    width: 100%;
+    height: auto;
+}
+
+.slikeslajd 
+{
+    float: left;
+    height: 567px;
+    width: 1080px;
+    
+    //display:none;
+}
+
+.imgonama
+{
+    float: left;
+    margin-right: 20px;
+    height: 105px;
+    width: 200px;
+}
+.divimgonama
+{
+    float: left;
+    display: block;
+    width: 1000px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #d8f7d2;
+    border-radius: 20px;
+}
+
+.brojstrana
+{
+    float: left;
+    height: 80px;    
+    width: 1000px;
+    background-color: #00a9ec;
+    border-radius: 20px;
+    font: estrangelo edessa;
+    font-size: 14pt;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border: 0px solid #e6e6e6;
+    position: relative;
+    overflow: hidden;
+}
+
+.brojstrana p
+{
+    text-align: center;
+    background-color: #ef9c00;
+    border-radius: 20px;
+}
+
+.brojstrana div
+{
+    text-align: center;
+    background-color: #7bc623;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.brojstrana div a
+{
+    text-decoration: none;
+    color: black;
+    background-color: #ef9c00;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+
+.brojstrana div a.trenutnastrana
+{
+    background-color: #e4106d;
+}
+
+.brojstrana div a:hover
+{
+
+    background-color: #01a8ec;
+    //display: flex;
+    //justify-content: center;
+    //align-items: center;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+
+.brojstrana div a:visited
+{
+
+    text-decoration: none;
+}
+
+.novosti
+{
+    float: left;
+    height: 40px;    
+    width: 1080px;
+    //border-radius: 10px;
+    font: estrangelo edessa;
+    font-size: 14pt;
+    //margin-left: 20px;
+    margin-top: 10px;
+    border: 0px solid #e6e6e6;
+    position: relative;
+    overflow: hidden;
+}
+
+.novosti a:link, nav a:visited
+{
+    font: estrangelo edessa;
+    font-size: 14pt;
+    //display: #e6e6e6;
+    color: black;
+    text-decoration: none;
+}
+
+.novosti a:visited
+{
+    font: estrangelo edessa;
+    font-size: 14pt;
+    //display: #e6e6e6;
+    color: black;
+    text-decoration: none;
+}
+
+.novosti a:active
+{
+    color: #e6e6e6; //#d05213;
+    text-shadow: 2px 2px 8px #808080;
+}
+.naslovpozadi
+{
+    border-radius: 14px;
+    height: 27px;
+    width: 0px;
+    background: rgba(0, 0, 0, 0.50);     
+    position: absolute;
+    left: 0;
+    display: flex;
+    //justify-content: center;
+    //align-items: center;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+
+.novosti:hover .naslovpozadi
+{
+    width: 1080px;
+}
+.novosti:hover a:link
+{
+    color: black;
+    text-shadow: 6px 6px 8px #808080;
+}
+
+.novostis
+{
+    float: left;
+    margin-top: 41px;
+    margin-left: 20px;
+    height: 268px;
+    width: 510px;
+    border-radius: 15px;
+    //border: 0px solid #e6e6e6;
+    position: relative;
+    overflow: hidden;  
+}
+
+.checkbox
+{
+    float: left;
+    padding: 5px;
+    margin-left: 5px; 
+    //height: 268px;
+    //width: 510px;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    position: relative;
+    overflow: hidden;
+}
+
+.checkbox1
+{
+    float: right;
+    padding: 5px;
+    margin-left: 5px; 
+    //height: 268px;
+    //width: 510px;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    position: relative;
+    overflow: hidden;
+}
+
+.checkbox2
+{
+    float: left;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    //height: 268px;
+    width: 98%;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    position: relative;
+    overflow: hidden;
+}
+
+.novostiss
+{
+    float: left;
+    //display: block;
+    height: 278px;
+    width: 530px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+
+.novostissSlika
+{
+    float: left;
+    //display: block;
+    height: 200px;
+    width: 303px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    overflow: hidden;    
+}
+
+.novostis:hover .novostiss
+{
+    height: 298px;
+    width: 550px;
+    margin-top: -10px;
+    margin-left: -10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.novostis:hover .novostisKtekst
+{
+    height: 268px;
+    
+}
+
+.novostisKtekst
+{
+    height: 40px;
+    width: 510px;
+    background: rgba(0, 0, 0, 0.75);     
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    //justify-content: center;
+    //align-items: center;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+
+.novostisKtekst p
+{
+    margin-top: 5px;
+    margin-left: 70px;
+    margin-right: 70px;
+    width: 510px;
+    position: relative;
+    font: franklin gothic medium;
+    font-style: italic;
+    font-size: 17pt;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+.vest
+{
+    
+    float: left;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    //height: 310px;
+    width: 1000px;
+    border-radius: 20px;
+    border: 1.5px solid #e6e6e6;
+    background-color: #a4c0e1;
+    position: relative;
+    overflow: hidden;
+}
+
+.vestb
+{
+    
+    float: left;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    //height: 310px;
+    width: 1000px;
+    border-radius: 20px;
+    border: 1.5px solid #e6e6e6;
+    background-color: #ebcdcc;
+    position: relative;
+    overflow: hidden;
+}
+
+.datumv
+{
+    float: right;
+    margin: 41px;
+    padding: 2px;
+    //margin-right: 10px;
+    //height: 310px;
+    width: auto;
+    font-size: 7pt;
+    //border-radius: 20px;
+    background-color: black;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.datumvs
+{
+    float: right;
+    //margin: 10px;
+    padding: 2px;
+    top: 5px;
+    right: 20px;
+    //margin-right: 10px;
+    //height: 310px;
+    width: auto;
+    font-size: 7pt;
+    //border-radius: 20px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    //overflow: hidden;
+}
+
+.naslovv
+{
+    float: left;
+    padding: 20px;
+    margin: 10px;
+    //height: 310px;
+    width: 470px;
+    border-radius: 20px;
+    border: 1.5px solid #ffffff;
+    background-color: #efeca7;
+    position: relative;
+    overflow: hidden;
+}
+
+.tekstv
+{
+    float: left;
+    padding: 20px;
+    margin: 10px;
+    //height: 310px;
+    width: 940px;
+    border-radius: 20px;
+    border: 1.5px solid #ffffff;
+    background-color: #efeca7;
+    position: relative;
+    overflow: hidden;
+}
+
+.autorv
+{
+    float: left;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    //height: 310px;
+    width: auto;
+    border-radius: 20px;
+    border: 1.5px solid #ffffff;
+    background-color: #efeca7;
+    font-size: 9pt;
+    position: relative;
+    overflow: hidden;
+}
+
+.tekstb
+{
+    float: left;
+    padding: 20px;
+    margin: 10px;
+    //height: 310px;
+    width: 940px;
+    border-radius: 20px;
+    border: 1.5px solid #ffffff;
+    background-color: #f1e8cb;
+    position: relative;
+    overflow: hidden;
+}
+
+.autorb
+{
+    float: left;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    //height: 310px;
+    width: auto;
+    border-radius: 20px;
+    border: 1.5px solid #ffffff;
+    background-color: #f1e8cb;
+    font-size: 9pt;
+    position: relative;
+    overflow: hidden;
+}
+
+.blogb
+{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 310px;
+    width: 330px;
+    border-radius: 15px;
+    //background-color: #6ebcecb;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+
+.blog
+{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 310px;
+    width: 330px;
+    border-radius: 15px;
+    //background-color: #652c90;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+.blog:hover
+{
+    background-color: #f7f282;
+}
+
+.blogs
+{
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 168px;
+    width: 320px;
+    border-radius: 15px;
+    //background-color: blue;
+    position: relative;
+    overflow: hidden;
+}
+
+.blogm
+{
+    float: left;
+    margin-top: 41px;
+    margin-left: 20px;
+    height: 168px;
+    width: 320px;
+    border-radius: 15px;
+    //background-color: blue;
+    position: relative;
+    overflow: hidden;
+}
+
+.blogmb
+{
+    float: left;
+    margin-top: 41px;
+    margin-left: 20px;
+    height: 168px;
+    width: 320px;
+    border-radius: 15px;
+    background-color: #ebcecb;
+    position: relative;
+    overflow: hidden;
+}
+
+.naslovb
+{
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    //height: 310px;
+    width: 670px;
+    border-radius: 20px;
+    border: 1.5px solid #ffffff;
+    background-color: #f1e8cb;
+    position: relative;
+    overflow: hidden;
+}
+
+.blognaslov
+{
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 42px;
+    width: 320px;
+    border-radius: 15px;
+    border: 1.5px solid #ffffff;
+    background-color: #a9baf0;
+    position: relative;
+    overflow: hidden;
+}
+
+.blogKtekst
+{
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 80px;
+    width: 320px;
+    border-radius: 15px;
+    border: 1.5px solid #ffffff;
+    background-color: #526077;
+    position: relative;
+    overflow: hidden;
+}
+
+.blognaslov p
+{
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 13pt;
+    text-align: center;
+    color: white;
+    
+}
+
+.blogKtekst p
+{
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 12pt;
+    color: white;
+    
+}
+
+.razmaks
+{
+    float: left;
+    height: 100%;
+    width: 20px;
+    border: 0px solid #e6e6e6;
+    position: relative;
+    overflow: hidden;  
+}
+
+.imgRight
+{
+    z-index: 1;
+    float: right;
+    height: 25px;
+    margin-right: 5px;
+    color: #e6e6e6;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.igcolor
+{
+    z-index: -1;
+    height: 0px;
+    width: 25px;
+    background: #f11e3e; 
+   // opacity: 0.5;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    //justify-content: center;
+    //align-items: center;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+
+.imgRight:hover .igcolor
+{
+    height: 25px;
+}
+
+.fbcolor
+{
+    z-index: -1;
+    height: 0px;
+    width: 25px;
+    background: #1b80e4; 
+    //opacity: 0.5;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    //justify-content: center;
+    //align-items: center;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+
+.imgRight:hover .fbcolor
+{
+    height: 25px;
+}
+
+.adonama
+{
+    padding: 20px;
+}
+
+.dugme a
+{
+    text-decoration: none;
+    font-size: 12pt;
+    color: black;
+    margin: 10px;
+    padding: 5px;
+    background-color: #8cc63f;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s ease;
+    
+}
+
+.dugme a:hover
+{
+    text-decoration: none;
+    font-size: 14pt;
+    color: black;
+    margin: 10px;
+    padding: 5px;
+    background-color: #ed217c;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s ease;
+    
+}
+
+.dugme12
+{
+    float: right;
+    //padding: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    position: relative;
+    overflow: hidden;
+}
+
+.dugme12 a
+{
+    text-decoration: none;
+    font-size: 12pt;
+    color: black;
+    background-color: red;
+    transition: 0.5s ease;
+    
+}
+
+.dugme12 a:hover
+{
+    text-decoration: none;
+    font-size: 14pt;
+    color: black;
+    margin: 10px;
+    padding: 5px;
+    background-color: #ed217c;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s ease;
+    
+}
+
+.dugme11
+{
+    
+    float: right;
+   // padding: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    position: relative;
+    overflow: hidden;
+}
+.dugme11 input[type=submit]
+{
+    text-decoration: none;
+    font-size: 12pt;
+    color: black;
+    background-color: green;
+    transition: 0.5s ease;
+}
+
+.dugme11 input[type=submit]:hover
+{
+    text-decoration: none;
+    font-size: 14pt;
+    color: black;
+    margin: 10px;
+    padding: 5px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s ease;
+    
+}
+
+.dugme11 a
+{
+    text-decoration: none;
+    font-size: 12pt;
+    color: black;
+    background-color: green;
+    transition: 0.5s ease;
+    
+}
+
+.dugme11 a:hover
+{
+    text-decoration: none;
+    font-size: 14pt;
+    color: black;
+    margin: 10px;
+    padding: 5px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s ease;
+    
+}
+
+.novostislikaadmin
+{
+    float: left;
+    //display: block;
+    height: 150px;
+    width: 286px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+
+.novostidatumadmin
+{
+    float: left;
+    margin-left: 20px;
+    padding: 2px;
+    //margin-right: 10px;
+    //height: 310px;
+    width: auto;
+    font-size: 7pt;
+    //border-radius: 20px;
+    background-color: black;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.novostitekstadmin
+{
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    height: 90px;
+    width: 450px;
+    border-radius: 20px;
+    background-color: #e9c9ef;
+    //color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.vestDoradaSlika
+{
+    float: left;
+    position: relative;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}

@@ -1,0 +1,9 @@
+pokrece se "ckeditor.js"
+
+poziva se:
+
+<script> src="(put gde se nalazi)/ckeditor.js" </script>
+	...
+	...
+	...
+<textarea class="ckeditor" name="editor"></textarea>
